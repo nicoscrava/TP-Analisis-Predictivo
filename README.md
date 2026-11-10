@@ -41,7 +41,7 @@ El código compartido está en `features.py` y `texto_beto.py`. El análisis exp
 - Los dos modelos entrenados **están en el repo**: `modelo_final.joblib` (~40 MB, con BETO) y `modelo_final_p7c_duracion.joblib` (~37 MB, sin BETO).
 - Los pesos de BETO, `modelos_beto/` (~2,2 GB), no entran en git por tamaño. Están en el Release, en 5 zips, uno por fold, cada uno con su `oof.npy`:
 
-  **Release: `[PEGAR LINK ACÁ]`**
+  **Release: https://github.com/nicoscrava/TP-Analisis-Predictivo/releases/tag/v1.0**
 
   Hay que descomprimirlos en la raíz del repo, así: `modelos_beto/fold_1/` … `modelos_beto/fold_5/`.
 - Los datos (`data/`) se bajan de Kaggle.
