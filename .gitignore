@@ -1,0 +1,39 @@
+# Datos de Kaggle: pesados y no redistribuibles
+data/
+
+# Material de clase (acceso directo a Google Drive)
+material
+material/
+
+# Entorno virtual
+.venv/
+
+# Artefactos generados: todos los .joblib menos los dos modelos finales (con y sin BETO)
+*.joblib
+!modelo_final.joblib
+!modelo_final_p7c_duracion.joblib
+
+# Submissions: solo las dos elegidas
+submission/*
+!submission/submission_beto_entrega.csv
+!submission/submission_p7c_duracion.csv
+
+# Varios
+.ipynb_checkpoints/
+__pycache__/
+catboost_info*/
+.DS_Store
+.claude/
+
+# Caché y resultados del laboratorio de features
+trabajo_realizado/.cache_laboratorio/
+
+# Pesos de BETO (~2,2 GB): van en el Release
+modelos_beto/
+
+# Notas de trabajo y configuración de herramientas (quedan solo en la compu)
+CLAUDE.md
+trabajo_realizado/CONTEXTO_PRESENTACION.md
+trabajo_realizado/README_para_otra_IA.md
+.vscode/
+.idea/

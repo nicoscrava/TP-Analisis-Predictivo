@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+ipykernel
+catboost
+torch
+sentence-transformers
+tensorflow
+pytorch-tabnet
+optuna
+shap
+lightgbm
+transformers
